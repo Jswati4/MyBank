@@ -11,3 +11,13 @@ Cette image Docker sert d'agent Jenkins personnalisé, incluant Composer pour g�
 ## Repository
 
 [Voir le code source ici](https://github.com/Jswati4/MyBank.git)
+
+# Jenkins Agent personnalisé avec NodeJS et Jest
+
+Cette image Docker sert d'agent Jenkins personnalisé incluant NodeJS et Jest, utile pour le frontend.
+
+## Construction de l'image
+
+```bash
+docker build -t jenkins-agent-nodejs-jest .
+
