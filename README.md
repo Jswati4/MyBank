@@ -14,10 +14,11 @@ Cette image Docker sert d'agent Jenkins personnalisé, incluant Composer pour g�
 
 # Jenkins Agent personnalisé avec NodeJS et Jest
 
-Cette image Docker sert d'agent Jenkins personnalisé incluant NodeJS et Jest, utile pour le frontend.
+Cette image Docker est un agent Jenkins personnalisé incluant **NodeJS** et **Jest**, utile pour les projets frontend.
 
-## Construction de l'image
+## Construction de l’image
 
 ```bash
 docker build -t jenkins-agent-nodejs-jest .
+
 
